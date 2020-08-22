@@ -9,7 +9,7 @@ class Todo extends Component {
             <div>
                 <form>
                     <input name="note"/>
-                    <button type="submit"></button>
+                    <button type="submit">Add note</button>
                 </form>
                 <ul>
                     {this.props.list.map((item)=> (
