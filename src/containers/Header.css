@@ -1,0 +1,24 @@
+.header {
+    background: rgb(125, 219, 219);
+    display: block;
+    color: rgb(223, 133, 30);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 1rem;
+}
+
+.header p {
+    text-align: right;
+    font-family: Helvetica;
+    /* font-weight: bold; */
+}
+
+.header h1 {
+    font-size: 40px;
+    font-family: Helvetica;
+    display: inline;
+    text-align: center;
+}

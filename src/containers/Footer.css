@@ -1,0 +1,11 @@
+.footer {
+    background: rgb(85, 8, 104);
+    display: block;
+    color:rgb(240, 191, 56);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100px;
+    padding: 1rem;
+    bottom: 0;
+}

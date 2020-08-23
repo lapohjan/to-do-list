@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
+import "../App.css";
 
 import * as actionTypes from '../action'
 
 class Todo extends Component {
     render() {
         return (
-            <div>
+            <div className="app">
                 <form onSubmit={(e) => {
                     e.preventDefault();
                     this.props.newNote(e.target.note.value);
@@ -15,11 +16,13 @@ class Todo extends Component {
                     <input name="note"/>
                     <button type="submit">Add note</button>
                 </form>
+                <div className="todo-list">
                 <ul>
                     {this.props.list.map((item)=> (
-                        <li key={item.id} onClick={() => this.props.removeNote(item.id)}>{item.text}</li>
+                        <li className="todo" key={item.id} onClick={() => this.props.removeNote(item.id)}>{item.text}</li>
                     ))}
                 </ul>
+                </div>
             </div>
         );
     }

@@ -1,5 +1,5 @@
 .app {
-  background: #209cee;
+  background: #106d85;
   padding: 30px;
   height: 100vh;
 }
@@ -9,6 +9,8 @@
   border-radius: 4px;
   padding: 5px;
   max-width: 400px;
+  margin: auto;
+  justify-content: center;
 }
 
 .todo {
@@ -17,8 +19,54 @@
   padding: 3px 10px;
   font-size: 12px;
   margin-bottom: 6px;
+  margin-right: 20px;
+  margin-left: 0;
   border-radius: 3px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+li.todo {
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+input, textarea {
+  font-family: Helvetica;
+  border-radius: 12px;
+  width: 200px;
+  border: 1px solid rgb(99, 99, 99);
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+
+button {
+  background-color: rgb(223, 133, 30);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }

@@ -24,8 +24,7 @@ const reducer = (state = initialState, action) => {
 
 const initialState = {
     notes: [
-        {id: 1, text: 'this is my first note'},
-        {id: 2, text: 'this is my second note'}
+        
     ],
 };
 
