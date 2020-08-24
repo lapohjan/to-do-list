@@ -1,7 +1,7 @@
 .footer {
-    background: rgb(85, 8, 104);
+    background: linear-gradient(#ffa8B6, #815864);
     display: block;
-    color:rgb(240, 191, 56);
+    color: rgb(78, 48, 48);
     display: grid;
     justify-items: center;
     align-items: center;
@@ -9,3 +9,5 @@
     padding: 1rem;
     bottom: 0;
 }
+
+/* #ffa8B6, #a28089 */

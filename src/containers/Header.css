@@ -1,7 +1,7 @@
 .header {
-    background: rgb(125, 219, 219);
+    background: linear-gradient(#51e2f5, #9df9ef);
     display: block;
-    color: rgb(223, 133, 30);
+    color: rgb(155, 96, 96);
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: space-between;
@@ -13,6 +13,7 @@
 .header p {
     text-align: right;
     font-family: Helvetica;
+    color: rgb(124, 82, 82);
     /* font-weight: bold; */
 }
 

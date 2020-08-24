@@ -1,7 +1,13 @@
-.app {
-  background: #106d85;
+.container_1 {
+  background: linear-gradient(#9df9ef, #edf7f6);
   padding: 30px;
-  height: 100vh;
+  height: 8vh;
+}
+
+.container_2 {
+  background: linear-gradient(#edf7f6,#ffa8B6);
+  padding: 30px;
+  height: 40vh;
 }
 
 .todo-list {
@@ -9,7 +15,7 @@
   border-radius: 4px;
   padding: 5px;
   max-width: 400px;
-  margin: auto;
+  margin: auto auto auto auto;
   justify-content: center;
 }
 
@@ -29,7 +35,9 @@ form {
   display: flex;
   padding: 10px;
   justify-content: center;
+  margin: auto;
 }
+
 
 p {
   font-family: Helvetica;
@@ -51,7 +59,7 @@ input, textarea {
 
 
 button {
-  background-color: rgb(223, 133, 30);
+  background-color: rgb(155, 96, 96);
   border: none;
   color: white;
   padding: 10px;
